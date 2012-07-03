@@ -1,0 +1,48 @@
+.tagger-input{
+	padding:3px;
+	display:inline-block;
+	vertical-align:middle;
+
+	border: 1px solid #CCCCCC;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555555;
+    font-size: 13px;
+    height: 18px;
+    margin-bottom: 9px;
+    padding: 4px;
+    width: 210px;
+    overflow:hidden;
+}
+
+.tagger-input .tagger-list{
+	display:inline-block;
+}
+.tagger-fake-input{
+	border:0;
+	border-radius:0;
+	width:80%;
+	box-shadow:none;
+	margin:0;
+	padding:0;
+
+}
+
+.tagger-fake-input:focus,
+.control-group.error .tagger-fake-input:focus{
+	border-color:none;
+	box-shadow:none;
+}
+
+.tagger-tag{
+	padding:0 3px;
+	background:#E0EAF1;
+	display:inline-block;
+	position:relative;
+	margin-right:5px;
+	color:#02779E;
+}
+
+.tagger-tag .remove-tag:hover{
+	text-decoration: none;
+}
